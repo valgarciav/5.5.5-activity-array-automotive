@@ -9,8 +9,15 @@ class Vehicle {
         this.mileage = mileage;
         this.started = false;
         this.numberOfWheels = 0;
+
+class MercurySedan extends Vehicle {
+    constructor(loadPassage, start, scheduleService){
+        
     }
 
+    }
+
+}
     start() {
         if (this.fuel > 0) {
             return this.started = true;
@@ -87,5 +94,7 @@ class Vehicle {
 
 //This exports things you want to use from this "module", more info in readme
 module.exports = {
-    Vehicle
+    Vehicle function(){
+        return ""
+    }
 }
